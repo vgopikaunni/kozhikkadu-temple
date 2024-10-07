@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kozhikkadu Bhagavathy Temple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Vazhipaadu</a></li>
+                    <li><a href="#portfolio">Photos</a></li> <!-- Ensure ID matches -->
+                    <li><a href="#contact">Contact</a></li> <!-- Ensure ID matches -->
+                    <i class="fas fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                
+                <h1>ശ്രീ കോഴിക്കാട് 
+                    <span> ഭഗവതി <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ക്ഷേത്രം </h1>
+                        <p>കോഴിക്കാട് നെന്മാറ </p>
+                    
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.jpeg" alt="Kozhikkadu Bhagavathy">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>The Kozhikkadu Bhagavathy Temple at Kozhikkadu near Thiruvazhiyad in Nemmara, managed by the Cochin Devaswom Board, is a beloved spiritual center for the local community. Revered as the Kuladevata (family deity) for many, the temple is known for the swift blessings of Devi. Surrounded by lush paddy fields and the shade of a majestic Banyan tree, the temple offers a peaceful and uplifting atmosphere. Daily rituals, performed by a dedicated priest, ensure a deeply spiritual experience for all who visit.
+
+                    </p>                    
+                    <div class="tab-titles">
+                        <h2>Temple Timings</h2>
+                        <p class="tab-links" onclick="opentab('morning')">Morning</p>
+                        <p class="tab-links" onclick="opentab('evening')">Evening</p>
+                       
+                    </div>
+                    <div class="tab-contents active-tab" id="morning">
+                        <ul>
+                            <li><span>06:00 AM</span><br>Temple Opening</li>
+                            
+                                <li><span>10:00 AM</span><br>Temple Closing</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="evening">
+                        <ul>
+                            <li><span>05:30 PM</span><br>Temple Opening</li>
+                            
+                            <li><span>07:00 PM</span><br>Temple Closing</li>
+                        </ul>
+                    </div>
+                   
+                </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">Vazhipaadu Details</h1>
+                    <div class="services-list">
+                        <div>
+                            <ul>
+                                <li>അർച്ചന - 12/-</li>
+                                <li>നെയ്യ് വിളക്ക് - 16/- </li>
+                                <li> എണ്ണ - 9/-</li>
+                                <li>സ്വയംവരം - 36/-</li>
+                                <li>ഭാഗ്യസൂക്തം - 36/-</li>
+                                    <li>ശ്രീസൂക്തം - 36/-</li>
+                                     <li>പുരുഷസൂക്‌തം - 36/-</li>
+                                     <li>ഐക്യമത്യം - 36/-</li>
+                                     <li>ശത്രുസംഹാരം - 50/-</li> 
+                                     <li>കുരുതി അർച്ചന - 50/-</li>  
+                                     <li>രക്‌തപുഷ്പജലി - 50/-</li>
+                            </ul>
+                        </div>
+                        <div>
+                           <ul>
+                            <li>കറുകമാല - 25/-</li>
+                            <li>ഗണപതിഹോമം - 90/-</li>
+                            <li>അപ്പം - 90/-</li>
+                            <li>ഒറ്റയപ്പം - 90/-</li>
+                            <li>നെയ്പായസം - 100/-</li>    
+                            <li>പാൽപായസം - 100/-</li>
+                            <li>കടുമധുര പായസം - 180/-</li>
+                            <li>വാഹനപൂജ twowheeler -300/-</li>
+                            <li>വാഹനപൂജ fourwheeler - 360/-</li>
+                            <li>ക്ഷീരധാര - 90/-</li>      
+                            <li>ഒരുനേര പൂജ - 540/-</li>
+                           </ul>
+                        </div>
+                        <div>
+                            <li>ഒരുദിവസ പൂജ - 1200/-</li> 
+                            <li>മംഗല്യപൂജ - 500/-</li>
+                            <li>മാലപൂജ - 25/-</li>
+                            <li>കെട്ടുനിറ -36/-</li> 
+                            <li>വെള്ളനിവേദ്യം - 25/-</li>
+                            <li>ചുറ്റുവിളക്ക് നിറമാല - 1950/-</li>
+                             
+                            <li>ദീപസ്തംഭം തെളിയിക്കൽ - 900/-</li>
+                            <li>വിവാഹം - 600/-</li>
+                            <li>വീഡിയോ - 720/-</li>
+                            <li>അഷ്ടദ്രവ്യ മഹാഗണപതി ഹോമം :
+                                (ചെറുത് - 300/-,
+                                വലുത് - 600/-)
+                            </li>          
+                            <li> ബ്രഹ്മരക്ഷസ്സ് പൂജ - 120/-</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio"></div>
+                <div class="container">
+                    <h1 class="sub-title">Photos</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="image1.jpeg">
+                        </div>
+                        <div class="work">
+                            <img src="image2.jpeg">
+                        </div>
+                        <div class="work">
+                            <img src="image3.jpeg">
+                        </div>
+                        <div class="second">
+                            <img src="image4.jpeg">
+                        </div>
+                        <div class="second">
+                            <img src="image5.jpeg">
+                        </div>
+                        <div class="second">
+                            <img src="image6.jpeg">
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+            <div id="contact">
+                <div class="container"> 
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Us</h1>
+                            <p><i class="fas fa-phone"></i> Narayanan Thirumeni- 8547044779</p>
+                            
+                            <p><i class="fas fa-phone"></i>Tulasi - 9747367859</p>
+                            <p><i class="fas fa-location-dot"></i> <a href="https://maps.app.goo.gl/CtVJ4iR2JcXfHWQS7" target="_blank">View on Map</a></p>
+
+                        </div>
+                </div>
+            </div>
+            
+            
+                        
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+   
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+   </script>  
+   <script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="0";
+    }
+    window.addEventListener('scroll', function() {
+        var sections = document.querySelectorAll('section');
+        var navLinks = document.querySelectorAll('nav ul li a');
+        
+        sections.forEach(function(section) {
+            var top = window.scrollY;
+            var offset = section.offsetTop - 150;
+            var height = section.offsetHeight;
+            var id = section.getAttribute('id');
+
+            if (top >= offset && top < offset + height) {
+                navLinks.forEach(function(link) {
+                    link.classList.remove('active');
+                    document.querySelector('nav ul li a[href*=' + id + ']').classList.add('active');
+                });
+            }
+        });
+    });
+
+   </script> 
+   <script>
+    // Function to highlight navbar item based on scroll position
+    document.addEventListener("scroll", function () {
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll("nav ul li a");
+        let currentSection = "";
+
+        sections.forEach((section) => {
+            const sectionTop = section.offsetTop;
+            if (pageYOffset >= sectionTop - 60) {
+                currentSection = section.getAttribute("id");
+            }
+        });
+
+        navLinks.forEach((link) => {
+            link.classList.remove("active");
+            if (link.getAttribute("href").includes(currentSection)) {
+                link.classList.add("active");
+            }
+        });
+    });
+</script>
+  
+</body>
+</html>
