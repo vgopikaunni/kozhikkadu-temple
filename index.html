@@ -1,181 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kozhikkadu Bhagavathy Temple</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Vazhipaadu</a></li>
-                    <li><a href="#portfolio">Photos</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-times" onclick="closemenu()"></i> <!-- Changed fa-x to fa-times -->
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
-            
-            <div class="header-text">
-                <h1>ശ്രീ കോഴിക്കാട് 
-                    <span>ഭഗവതി <br> ക്ഷേത്രം</span>
-                </h1>
-                <p>കോഴിക്കാട് നെന്മാറ</p>
-            </div>
+      <div class="container">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Vazhipaadu</a></li>
+            <li><a href="#portfolio">Photos</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+            <!-- Changed fa-x to fa-times -->
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <h1>
+            ശ്രീ കോഴിക്കാട്
+            <span
+              >ഭഗവതി <br />
+              ക്ഷേത്രം</span
+            >
+          </h1>
+          <p>കോഴിക്കാട് നെന്മാറ</p>
         </div>
+      </div>
     </div>
 
     <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="about.jpeg" alt="Kozhikkadu Bhagavathy">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Us</h1>
-                    <p>The Kozhikkadu Bhagavathy Temple at Kozhikkadu near Thiruvazhiyad in Nemmara, managed by the Cochin Devaswom Board, is a beloved spiritual center for the local community. Revered as the Kuladevata (family deity) for many, the temple is known for the swift blessings of Devi. Surrounded by lush paddy fields and the shade of a majestic Banyan tree, the temple offers a peaceful and uplifting atmosphere. Daily rituals, performed by a dedicated priest, ensure a deeply spiritual experience for all who visit.</p>
-                    
-                    <div class="tab-titles">
-                        <h2>Temple Timings</h2>
-                        <p class="tab-links" onclick="opentab('morning')">Morning</p>
-                        <p class="tab-links" onclick="opentab('evening')">Evening</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="morning">
-                        <ul>
-                            <li><span>06:00 AM</span><br>Temple Opening</li>
-                            <li><span>10:00 AM</span><br>Temple Closing</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="evening">
-                        <ul>
-                            <li><span>05:30 PM</span><br>Temple Opening</li>
-                            <li><span>07:00 PM</span><br>Temple Closing</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="about.jpeg" alt="Kozhikkadu Bhagavathy" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Us</h1>
+            <p>
+              The Kozhikkadu Bhagavathy Temple at Kozhikkadu near Thiruvazhiyad
+              in Nemmara, managed by the Cochin Devaswom Board, is a beloved
+              spiritual center for the local community. Revered as the
+              Kuladevata (family deity) for many, the temple is known for the
+              swift blessings of Devi. Surrounded by lush paddy fields and the
+              shade of a majestic Banyan tree, the temple offers a peaceful and
+              uplifting atmosphere. Daily rituals, performed by a dedicated
+              priest, ensure a deeply spiritual experience for all who visit.
+            </p>
+
+            <div class="tab-titles">
+              <h2>Temple Timings</h2>
+              <p class="tab-links" onclick="opentab('morning')">Morning</p>
+              <p class="tab-links" onclick="opentab('evening')">Evening</p>
             </div>
+            <div class="tab-contents active-tab" id="morning">
+              <ul>
+                <li><span>06:00 AM</span><br />Temple Opening</li>
+                <li><span>10:00 AM</span><br />Temple Closing</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="evening">
+              <ul>
+                <li><span>05:30 PM</span><br />Temple Opening</li>
+                <li><span>07:00 PM</span><br />Temple Closing</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="services">
-        <div class="container">
-            <h1 class="sub-title">Vazhipaadu Details</h1>
-            <div class="services-list">
-                <div>
-                    <ul>
-                        <li>അർച്ചന - 12/-</li>
-                        <li>നെയ്യ് വിളക്ക് - 16/- </li>
-                        <li>എണ്ണ - 9/-</li>
-                        <li>സ്വയംവരം - 36/-</li>
-                        <li>ഭാഗ്യസൂക്തം - 36/-</li>
-                        <li>ശ്രീസൂക്തം - 36/-</li>
-                        <li>പുരുഷസൂക്‌തം - 36/-</li>
-                        <li>ഐക്യമത്യം - 36/-</li>
-                        <li>ശത്രുസംഹാരം - 50/-</li> 
-                        <li>കുരുതി അർച്ചന - 50/-</li>  
-                        <li>രക്‌തപുഷ്പജലി - 50/-</li>
-                    </ul>
-                </div>
-                <div>
-                   <ul>
-                    <li>കറുകമാല - 25/-</li>
-                    <li>ഗണപതിഹോമം - 90/-</li>
-                    <li>അപ്പം - 90/-</li>
-                    <li>ഒറ്റയപ്പം - 90/-</li>
-                    <li>നെയ്പായസം - 100/-</li>    
-                    <li>പാൽപായസം - 100/-</li>
-                    <li>കടുമധുര പായസം - 180/-</li>
-                    <li>വാഹനപൂജ twowheeler -300/-</li>
-                    <li>വാഹനപൂജ fourwheeler - 360/-</li>
-                    <li>ക്ഷീരധാര - 90/-</li>      
-                    <li>ഒരുനേര പൂജ - 540/-</li>
-                   </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li>ഒരുദിവസ പൂജ - 1200/-</li> 
-                        <li>മംഗല്യപൂജ - 500/-</li>
-                        <li>മാലപൂജ - 25/-</li>
-                        <li>കെട്ടുനിറ -36/-</li> 
-                        <li>വെള്ളനിവേദ്യം - 25/-</li>
-                        <li>ചുറ്റുവിളക്ക് നിറമാല - 1950/-</li>
-                        <li>ദീപസ്തംഭം തെളിയിക്കൽ - 900/-</li>
-                        <li>വിവാഹം - 600/-</li>
-                        <li>വീഡിയോ - 720/-</li>
-                        <li>അഷ്ടദ്രവ്യ മഹാഗണപതി ഹോമം :
-                            (ചെറുത് - 300/-,
-                            വലുത് - 600/-)
-                        </li>          
-                        <li>ബ്രഹ്മരക്ഷസ്സ് പൂജ - 120/-</li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="sub-title">Vazhipaadu Details</h1>
+        <div class="services-list">
+          <div>
+            <ul>
+              <li>അർച്ചന - 12/-</li>
+              <li>നെയ്യ് വിളക്ക് - 16/-</li>
+              <li>എണ്ണ - 9/-</li>
+              <li>സ്വയംവരം - 36/-</li>
+              <li>ഭാഗ്യസൂക്തം - 36/-</li>
+              <li>ശ്രീസൂക്തം - 36/-</li>
+              <li>പുരുഷസൂക്‌തം - 36/-</li>
+              <li>ഐക്യമത്യം - 36/-</li>
+              <li>ശത്രുസംഹാരം - 50/-</li>
+              <li>കുരുതി അർച്ചന - 50/-</li>
+              <li>രക്‌തപുഷ്പജലി - 50/-</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>കറുകമാല - 25/-</li>
+              <li>ഗണപതിഹോമം - 90/-</li>
+              <li>അപ്പം - 90/-</li>
+              <li>ഒറ്റയപ്പം - 90/-</li>
+              <li>നെയ്പായസം - 100/-</li>
+              <li>പാൽപായസം - 100/-</li>
+              <li>കടുമധുര പായസം - 180/-</li>
+              <li>വാഹനപൂജ twowheeler -300/-</li>
+              <li>വാഹനപൂജ fourwheeler - 360/-</li>
+              <li>ക്ഷീരധാര - 90/-</li>
+              <li>ഒരുനേര പൂജ - 540/-</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>ഒരുദിവസ പൂജ - 1200/-</li>
+              <li>മംഗല്യപൂജ - 500/-</li>
+              <li>മാലപൂജ - 25/-</li>
+              <li>കെട്ടുനിറ -36/-</li>
+              <li>വെള്ളനിവേദ്യം - 25/-</li>
+              <li>ചുറ്റുവിളക്ക് നിറമാല - 1950/-</li>
+              <li>ദീപസ്തംഭം തെളിയിക്കൽ - 900/-</li>
+              <li>വിവാഹം - 600/-</li>
+              <li>വീഡിയോ - 720/-</li>
+              <li>
+                അഷ്ടദ്രവ്യ മഹാഗണപതി ഹോമം : (ചെറുത് - 300/-, വലുത് - 600/-)
+              </li>
+              <li>ബ്രഹ്മരക്ഷസ്സ് പൂജ - 120/-</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">Photos</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="image1.jpeg" alt="Photo 1">
-                </div>
-                <div class="work">
-                    <img src="image2.jpeg" alt="Photo 2">
-                </div>
-                <div class="work">
-                    <img src="image3.jpeg" alt="Photo 3">
-                </div>
-                <div class="second">
-                    <img src="image4.jpeg" alt="Photo 4">
-                </div>
-                <div class="second">
-                    <img src="image5.jpeg" alt="Photo 5">
-                </div>
-                <div class="second">
-                    <img src="image6.jpeg" alt="Photo 6">
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="sub-title">Photos</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="image1.jpeg" alt="Photo 1" />
+          </div>
+          <div class="work">
+            <img src="image2.jpeg" alt="Photo 2" />
+          </div>
+          <div class="work">
+            <img src="image3.jpeg" alt="Photo 3" />
+          </div>
+          <div class="second">
+            <img src="image4.jpeg" alt="Photo 4" />
+          </div>
+          <div class="second">
+            <img src="image5.jpeg" alt="Photo 5" />
+          </div>
+          <div class="second">
+            <img src="image6.jpeg" alt="Photo 6" />
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="contact">
-        <div class="container"> 
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Contact Us</h1>
-                    <p><i class="fas fa-phone"></i> Narayanan Thirumeni - 8547044779</p>
-                    <p><i class="fas fa-phone"></i> Tulasi - 9747367859</p>
-                    <p><i class="fas fa-map-marker-alt"></i> <a href="https://maps.app.goo.gl/CtVJ4iR2JcXfHWQS7" target="_blank">View on Map</a></p>
-                </div>
-                <!-- You can add a contact form or additional contact information here -->
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Us</h1>
+            <p><i class="fas fa-phone"></i> Narayanan Thirumeni - 8547044779</p>
+            <p><i class="fas fa-phone"></i> Tulasi - 9747367859</p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i>
+              <a
+                href="https://maps.app.goo.gl/CtVJ4iR2JcXfHWQS7"
+                target="_blank"
+                >View on Map</a
+              >
+            </p>
+          </div>
+          <!-- You can add a contact form or additional contact information here -->
         </div>
+      </div>
     </section>
 
     <!-- JavaScript for Tabs and Navigation -->
     <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
 
-        function opentab(tabname){
-            for(var tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(var tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-       
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
+      function opentab(tabname) {
+        for (var tablink of tablinks) {
+          tablink.classList.remove("active-link");
         }
-    </script>  
-</body>
+        for (var tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      function openmenu() {
+        document.getElementById("sidemenu").classList.add("open");
+        document.querySelector("i.fa-times").classList.add("open");
+        document.querySelector("i.fa-bars").style.display = "none";
+      }
+
+      function closemenu() {
+        document.getElementById("sidemenu").classList.remove("open");
+        document.querySelector("i.fa-times").classList.remove("open");
+        document.querySelector("i.fa-bars").style.display = "block";
+      }
+    </script>
+  </body>
 </html>
